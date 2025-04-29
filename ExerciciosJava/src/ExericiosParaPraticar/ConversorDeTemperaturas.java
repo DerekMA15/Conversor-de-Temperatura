@@ -28,7 +28,8 @@ public class ConversorDeTemperaturas {
 	
 	System.out.println("Temperatura em graus Celsius:"+C+"\nTemperatura em Fahrenheit: "+F+""
 			+ "\nTemperatura em Kelvin: "+K+"\nTemperatura em Réaumur: "+Re+"\nTemperatura em Rankine: "+Ra);
-	
+		/*ou dessa forma:
+	/System.out.printf("Temperatura em graus Celsius: %.2f \nTemperatura em Fahrenheit: %.2f \nTemperatura em Kelvin: %.2f \nTemperatura em Réaumur: %.2f \nTemperatura em Rankine: %.2f",C ,F, K, Re, Ra);*/
 		/* 
 		 forma feita pelo professor: a grande diferença é que eu usei o scanner para capturar qualquer valor(n olhei até terminar o codg)
 	  java
